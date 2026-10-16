@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境（1.9G，不上传）
+.venv/
+venv/
+
+# IDE 配置
+.idea/
+
+# 敏感配置（API Key 等）
+.env
+.env.*
+.streamlit/secrets.toml
+
+# 本地自用材料（不上传仓库）
+AGENTS.md
+演示材料/

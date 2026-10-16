@@ -1,0 +1,13 @@
+chromadb==1.5.9  # Chroma 向量数据库
+docx2txt==0.9  # DOCX 文档文本提取
+chardet==7.6.0  # TXT 文件编码自动检测
+httpx==0.28.1  # HTTP 客户端（大模型调用直连、绕过本机代理）
+langchain-chroma==1.1.0  # LangChain 接入 Chroma
+langchain-community==0.4.2  # DOCX、TXT、PDF 文档加载器
+langchain-core==1.6.10  # LCEL Runnable、提示词和输出解析器
+langchain-huggingface[full]==1.2.3  # 本地 Hugging Face 嵌入模型及 sentence-transformers 支持
+langchain-openai==1.7.1  # ChatOpenAI 兼容接口
+langchain-text-splitters==1.1.3  # RecursiveCharacterTextSplitter 文本分块
+pypdf==6.20.1  # PDF 文档文本提取
+sentence-transformers==5.7.0  # 本地 BGE 嵌入模型运行支持
+streamlit==1.65.0  # Streamlit 网页界面
